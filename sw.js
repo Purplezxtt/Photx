@@ -1,5 +1,5 @@
 /* Service worker do Photx: guarda a própria página para abrir sem internet. */
-var CACHE = "photx-v2";
+var CACHE = "photx-v1";
 var SHELL = ["./", "index.html", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", function (e) {
